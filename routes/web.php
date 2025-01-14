@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/calc/{値1}/{演算子}/{値2}', [CalcsController::class, 'calc']);
+Route::get('/calc/{number1}/{operator}/{number2}', [CalcsController::class, 'calc']);
